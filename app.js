@@ -4,7 +4,7 @@ const starts=[0,60,145,195,280,335,440,525,620],ends=[60,145,195,280,335,440,525
 const sentences=NARRATION.map(s=>s.match(/[^.!?]+[.!?]+(?:[”’])?/g)||[s]);
 const steps=[0,15,29,42,60,78,100,122,145,161,180,195,210,229,249,268,274,280,290,309,323,335,352,377,406,429,440,457,482,510,525,546,566,584,604,620,642,664,688,705];
 const recorded=new Map();let audioFailed=new Set();
-let t=0,playing=false,last=0,chapter=0,captionIndex=-1,narrationKey='',pausedAt=null;const passed=new Set();let speed=1;
+let t=0,playing=false,last=0,chapter=0,captionIndex=-1,narrationKey='',pausedAt=null;const passed=new Set();let speed=Number($('speed').value);
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');$('motion').checked=reduced.matches;
 const anatomy=new Image();anatomy.src='assets/digestion.png';
 const residues=MOLECULE.filter(a=>a.name==='CA');const byRes=new Map();MOLECULE.forEach(a=>{if(!byRes.has(a.i))byRes.set(a.i,[]);byRes.get(a.i).push(a)});
