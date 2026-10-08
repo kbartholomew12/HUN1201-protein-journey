@@ -1,0 +1,12 @@
+Source and license manifest
+
+Original storyboard/narration: instructor supplied Protein Journey handoff.
+Course alignment: instructor supplied Module 5 reading, outcomes, question bank. No exam questions copied.
+Molecular coordinates: wwPDB open CC0 data; assets include original files and derived JavaScript.
+1LYZ hen lysozyme; 5PEP porcine pepsin; 2PTN bovine trypsin; 7PMW human PEPT1;
+1BNA synthetic B-DNA; 6QZP human 80S ribosome; 1EHZ yeast Phe tRNA; 1CLL human calmodulin; 1MSO human insulin.
+Ribosome point cloud sampled every third C-alpha/phosphate; all other backbones retain resolved coordinates.
+Native structures show one experimental conformation. Transport, transcription, translation, folding and digestion are conceptual.
+Generated original teaching plates: digestion.png, enterocytes.png, cell.png, liver-kidneys.png. Visually inspected, not diagnostic anatomy.
+Original canvas chemical diagrams and animation code; no external runtime fonts, scripts or raster sources.
+Detailed citations and scientific limitations in guide.html.

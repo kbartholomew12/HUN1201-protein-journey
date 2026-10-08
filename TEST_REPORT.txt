@@ -1,0 +1,29 @@
+Protein Journey — Complete nine-scene version — validation 2026-10-08
+
+Passed:
+- JavaScript syntax checks for main player and scene extension.
+- Original instructor narration present for all nine scenes; matching sentence captions and VTT.
+- Nine chapter buttons and shared 0–720 second timeline; direct scrubbing across new scenes.
+- Play/pause, previous/next, replay, speed selection, captions, descriptive transcript, and explanations.
+- Prediction 3 at 604 seconds: exact question, INS-gene answer reveal, Continue resumes.
+- Predictions 1 and 2 retained from tested approved milestone at 180 and 274 seconds.
+- Full player stops at 720 seconds, shows completion message and disables Next.
+- Reduced-motion preference checked, ambient rotation/bobbing removed.
+- 390px mobile rendering: document client width and scroll width both 390px; artwork can be inspected horizontally.
+- All nine scenes rendered for screenshots; uninterrupted accelerated recording traverses the full timeline.
+- Experimental molecular references and local assets packaged; no runtime requests to external artwork/scripts.
+
+Science reviewed:
+- Same tracked lysozyme segment; Lys–Val peptide keeps actual sequence through absorption.
+- PEPT1 versus free amino-acid transport, intracellular hydrolysis, portal/liver/systemic order.
+- DNA remains nuclear, mRNA exits; internal calmodulin sequence excerpt and antiparallel codon/anticodon pairing.
+- New chain order differs from food-protein order. Native body protein is calmodulin, distinct from lysozyme.
+- Insulin precursor steps, mature A/B chain/disulfide indicators, ordinary oral versus subcutaneous route.
+- Nitrogen disposal and carbon skeleton uses separated; no dedicated excess-protein storage depot.
+
+Limits:
+- Molecular motion is conceptual, not atomistic folding, docking, transport or kinetic simulation.
+- Browser speech synthesis support exists, but audible output was not acoustically verified in this remote environment.
+- No instructor audio was supplied; local recording insertion points and fallback are documented.
+- Captions follow word-weighted scene timing, not recorded voice timestamps.
+- Mobile preserves molecular legibility through horizontal illustration inspection rather than shrinking all chemistry to fit.
